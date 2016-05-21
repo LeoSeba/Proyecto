@@ -6,9 +6,13 @@
 package excepciones;
 
 /**
- *
+ * Clase para lanzar mis propias excepciones
  * @author Leo
+ * @version 21/05/2016
  */
-public class MyException {
+public class MyException extends Exception {
+    public MyException(String mensaje) {
+        super(mensaje);
+    }
     
 }

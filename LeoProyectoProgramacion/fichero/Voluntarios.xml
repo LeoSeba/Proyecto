@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Voluntarios>
+<Voluntario>
+<DNI>V001     </DNI>
+<Nombre>Mario10</Nombre>
+<Apellido>Latino</Apellido>
+<Email>v001mario.com</Email>
+<Telefono>652125789</Telefono>
+<Horas_Dedicadas/>
+</Voluntario>
+<Voluntario>
+<DNI>V002     </DNI>
+<Nombre>David15</Nombre>
+<Apellido>Ruiz</Apellido>
+<Email>v002david.com</Email>
+<Telefono>646217259</Telefono>
+<Horas_Dedicadas/>
+</Voluntario>
+<Voluntario>
+<DNI>V003     </DNI>
+<Nombre>David13</Nombre>
+<Apellido>Isla</Apellido>
+<Email>v003david.com</Email>
+<Telefono>678514760</Telefono>
+<Horas_Dedicadas/>
+</Voluntario>
+<Voluntario>
+<DNI>V004     </DNI>
+<Nombre>Fernado20</Nombre>
+<Apellido>Conchillo</Apellido>
+<Email>v004fernado.com</Email>
+<Telefono>602505436</Telefono>
+<Horas_Dedicadas/>
+</Voluntario>
+<Voluntario>
+<DNI>V005     </DNI>
+<Nombre>Mario18</Nombre>
+<Apellido>Codes</Apellido>
+<Email>v005mario.com</Email>
+<Telefono>647602491</Telefono>
+<Horas_Dedicadas/>
+</Voluntario>
+<Voluntario>
+<DNI>nuevo1   </DNI>
+<Nombre>ccd20</Nombre>
+<Apellido>ngb</Apellido>
+<Email>ngn</Email>
+<Telefono>ngn</Telefono>
+<Horas_Dedicadas/>
+</Voluntario>
+</Voluntarios>

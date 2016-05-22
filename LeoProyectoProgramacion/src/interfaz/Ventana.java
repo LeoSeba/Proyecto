@@ -183,7 +183,8 @@ public class Ventana extends JFrame implements ActionListener, WindowListener {
     public void actionPerformed(ActionEvent e) {
         switch (e.getActionCommand()) {
             case "0"://alta
-                
+                voluntarios=actualizarArray();
+                VentanaAlta vA = new VentanaAlta(db, voluntarios);
                 break;
             case "1"://baja
                 voluntarios=actualizarArray();
@@ -203,7 +204,19 @@ public class Ventana extends JFrame implements ActionListener, WindowListener {
                 }
                 break;
             case "2"://modificaciones
+                voluntarios=actualizarArray();
+                String[] dni = crearArrayDNI();
+                try{
+                String opcion = (String) JOptionPane.showInputDialog(null, "Selecciona un dni", "Elegir",
+                        JOptionPane.QUESTION_MESSAGE, null, dni, dni[0]);
                 
+                if (opcion != null) {
+                    VentanaModificacion m1 = new VentanaModificacion(db,voluntarios,opcion);
+                }
+                System.out.println(opcion);
+                }catch (NullPointerException ex) {
+
+                }
                 break;
             case "3"://crear documento xml
                 voluntarios=actualizarArray();

@@ -48,4 +48,12 @@
 <Telefono>ngn</Telefono>
 <Horas_Dedicadas/>
 </Voluntario>
+<Voluntario>
+<DNI>prueba05 </DNI>
+<Nombre>luis5</Nombre>
+<Apellido>ochoa</Apellido>
+<Email>email1</Email>
+<Telefono>null</Telefono>
+<Horas_Dedicadas/>
+</Voluntario>
 </Voluntarios>
